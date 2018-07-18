@@ -63,7 +63,6 @@ button {
 
 .clickDiv {
   color: white;
-  margin-bottom: 4rem;
   padding: 1rem;
   box-shadow: 0 0 15px rgba(0,0,0,0.1);
   font-size: 24px;
@@ -85,5 +84,5 @@ button {
 }
 
 .buttonDiv {
-  margin-bottom: 15%;
+  margin-bottom: 10%;
 }
