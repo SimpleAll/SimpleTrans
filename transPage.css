@@ -17,25 +17,25 @@ body {
 .wallDiv {
   text-align: center;
   width: auto;
-  padding-top: 10em;
+  padding-top: 4%;
 }
 
 .fontDiv {
-  margin: 0em auto 0 auto;
+  margin: 0rem auto 0 auto;
   text-align: center;
-  width: 42%;
+  width: 50%;
   background-color: rgba(255, 255, 255, 0.85);
   border-style: outset;
-  border-radius: 2.4em 2.4em 1em 1em;
-  border-width: 0.4em;
+  border-radius: 2.4rem 2.4rem 1rem 1rem;
+  border-width: 0.4rem;
   border-color: pink;
 }
 
 .titleDiv {
-  font-size: 2.4em;
-  border-bottom: 0.2em double #eee;
-  padding-bottom: 0.4em;
-  margin-bottom: 1em;
+  font-size: 2.4rem;
+  border-bottom: 0.2rem double #eee;
+  padding-bottom: 0.4rem;
+  margin-bottom: 1rem;
 }
 
 .textDiv {opacity: 0.5;}
@@ -43,19 +43,47 @@ body {
 textarea {
   color: black;
   width: 40%;
-  height: 24em;
-  margin: 0em 1em 2.4em 1em;
+  height: 20rem;
+  margin: 0rem 1rem 2.4rem 1rem;
   resize: none;
+  font-size: 16px;
 }
 
 button {
-  width: 10em;
-  margin: 0em 1em 1em 1em;
+  width: 10rem;
+  margin: 0rem 1rem 1rem 1rem;
 }
 
 .footerDiv {
   background-color: #CFCFCF;
-  border-radius: 0em 0em 0.5em 0.5em;
-  padding: 0.4em;
+  border-radius: 0rem 0rem 0.5rem 0.5rem;
+  padding: 0.4rem;
   color: gray;
+}
+
+.clickDiv {
+  color: white;
+  margin-bottom: 4rem;
+  padding: 1rem;
+  box-shadow: 0 0 15px rgba(0,0,0,0.1);
+  font-size: 24px;
+  text-align: center;
+  cursor: pointer;
+  width: 38%;
+}
+
+#transToButton {
+  margin-left: 4.3rem;
+  float: left;
+  background-color: rgba(34, 139, 34, 0.4);
+}
+
+#transBackButton {
+  margin-right: 4.3rem;
+  float: right;
+  background-color: rgba(255, 114, 114, 0.4);
+}
+
+.buttonDiv {
+  margin-bottom: 15%;
 }
