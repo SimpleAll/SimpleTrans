@@ -10,7 +10,7 @@ html, body {
 
 body {
   background-image: url("./backImg.jpg");
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-size: cover;
 }
 
